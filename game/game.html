@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="game.js" async></script>
+    <title>Mix-Or-Match</title>
+</head>
+
+<body class="body">
+    <h1 class="page-title">Mix-Or-Match</h1>
+    <div class="overlay-text visible">
+        Click to Start
+      </div>
+      <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small">Click to Restart</span>
+      </div>
+      <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Click to Restart</span>
+      </div>
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                Flips <span id="flips">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/cute.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/cute.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/face.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/face.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/happy.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/happy.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/house.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/house.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/house2.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/house2.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/party.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/party.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/spider.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/spider.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/trick.jpg" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="pumpkin" src="Assests/Images/pumpkin.jpg" width="100px" height="100px">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assests/Images/trick.jpg" width="100px" height="100px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
